@@ -17,6 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: rainbow 3s infinite alternate;
 }
 
 .loader {
@@ -50,4 +51,29 @@
     100% {
         transform: rotate(360deg);
     }
+}
+
+
+@keyframes rainbow {
+    0% {
+    background-color: red;
+}
+    17% {
+    background-color: orange;
+}
+    33% {
+    background-color: yellow;
+}
+    50% {
+    background-color: green;
+}
+    67% {
+    background-color: skyblue;
+}
+    84% {
+    background-color: blue;
+}
+    100% {
+    background-color: indigo;
+}
 }
